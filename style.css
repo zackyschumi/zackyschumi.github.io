@@ -5,7 +5,7 @@ img {
     outline-style: auto;
 }
 body {
-    background-color: wheat;
+    background-color: #CD853F;
 }
 table {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,8 +28,8 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color: CornflowerBlue;
-    background-color: rgb(250, 235, 215);
+    color: turquoise;
+    background-color: rgb(176, 224, 230);
     font-family: Arial, Helvetica, sans-serif;
     font-size: x-large;
     height: fit-content;
