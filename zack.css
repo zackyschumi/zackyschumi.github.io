@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+}
+
+ table,
+      th,td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+th,td {
+  padding: 15px;
+  font-size: 14px;
+}
+
+th {
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-shadow: 1px 1px 2px black;
+}
+
+td {
+	background-color: darkcyan;
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px;
+}
+
+p {
+	font-size: 16px;
+	text-indent: 60px;
+	font-family: Helvetica;
+	text-align: justify;
+	padding: 20px;
+	color: black;
+	letter-spacing: 0.5px;
+	line-height: 1.5;
+
+}
+
+.photo {
+	width: 220px;
+}
+
+h1 {
+	font-family: 'Share', cursive;
+    font-size: 35px;
+    text-shadow: 5px 5px 0px #f0e8db, 8px 8px 0px #6c5257;
+    color: maroon;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: darkkhaki;
+	padding: 15px;
+}
+
+h2 {
+	font-family: Garamond;
+    font-size: 26px;
+    text-shadow: 1px 2px 5px white;
+    color: maroon;
+    text-align: center;
+}
+
+body {
+	background-color: #FAF0E6;
+	}
+footer{
+	text-align: center;
+}
+
+nav {
+	display: block;
+	background-color: darkkhaki;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px black;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+nav a {
+	float: left;
+	color: maroon;
+	padding: 15px 20px;
+	text-decoration: none;
+	border: 0.5px solid maroon;
+	border-radius: 2px;
+}
+
+nav a:hover {
+	background-color: maroon;
+	color: darkkhaki;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+button {
+	background-color: maroon;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+button a{
+	color: white;
+	text-decoration: none;
+}
+
+button a:hover {
+	color: blue;
+}
+
+.container {
+			max-width: 1200px;
+			margin: auto;
+			background-color: darkkhaki;
+			overflow: auto;
+}
+
+.gallery {
+			margin: 5px;
+			border:1px solid black;
+			float: left;
+			width: 390px;
+		}
+		
+.gallery img {
+		width: 100%;
+		height: auto;
+		display: block;
+}
